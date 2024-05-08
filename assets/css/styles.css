@@ -308,6 +308,11 @@ img {
 
 /* ===== WORK =====*/
 /* Style for the work section */
+.work {
+  padding: 50px 0; /* Adjust padding as needed */
+}
+
+/* Style for the work container */
 /* Style for the work section */
 .work {
   padding: 50px 0; /* Adjust padding as needed */
@@ -317,10 +322,15 @@ img {
 .work__container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive grid */
-  gap: 20px; /* Adjust the gap between images */
+  gap: 20px; /* Adjust the gap between items */
 }
 
-/* Style for the work images */
+/* Style for each work item */
+.work__item {
+  text-align: center; /* Center-align the text */
+}
+
+/* Style for the work image */
 .work__img {
   display: block;
   width: 100%;
@@ -330,6 +340,14 @@ img {
   padding: 10px; /* Optional: Adds padding inside each image */
   box-sizing: border-box; /* Ensures padding is included in the image size */
 }
+
+/* Style for the work description */
+.work__desc {
+  margin-top: 10px; /* Add space above the description */
+  font-size: 14px; /* Adjust font size as needed */
+}
+
+
 
 
 /* ===== CONTACT =====*/
@@ -535,3 +553,14 @@ button {
 button:hover {
     background-color: #0044cc;
 }
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-image: url("assets/img/work6.jpg"); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
