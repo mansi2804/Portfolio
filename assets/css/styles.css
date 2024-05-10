@@ -294,13 +294,16 @@ img {
   width: 95%;
 }
 .skills__css {
-  width: 85%;
+  width: 95%;
 }
 .skills__js {
-  width: 65%;
+  width: 90%;
+}
+.skills__py {
+  width: 95%;
 }
 .skills__ux {
-  width: 85%;
+  width: 90%;
 }
 .skills__img {
   border-radius: 0.5rem;
@@ -553,14 +556,3 @@ button {
 button:hover {
     background-color: #0044cc;
 }
-
-body {
-  margin: 0;
-  padding: 0;
-  font-family: Arial, sans-serif;
-  background-image: url("assets/img/work6.jpg"); 
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
